@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MyLocks">
+
+    <Button
+        android:id="@+id/addKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:background="@xml/button_curve2"
+        android:text="Add Key" />
+
+
+    <Button
+        android:id="@+id/deleteUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/mylocks"
+        android:background="@xml/button_curve2"
+        android:text="Delete User" />
+
+    <Button
+        android:id="@+id/addLock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/messages"
+        android:background="@xml/button_curve2"
+        android:text="Add Lock" />
+
+</LinearLayout>
