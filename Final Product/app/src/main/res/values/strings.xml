@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NFC Lock System</string>
+    <string name="hello_world">The Entry was Stored</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_confirm">ConfirmActivity</string>
+    <string name="title_activity_loginPage">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_my_locks">MyLocks</string>
+    <string name="title_activity_logs">Logs</string>
+    <string name="title_activity_read_tag">ReadTag</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_unlock_door">UnlockDoor</string>
+</resources>

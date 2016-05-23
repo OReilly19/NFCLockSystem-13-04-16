@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="dave.nfclocksystem.Homepage">
+
+    <Button
+        android:id="@+id/unlockDoor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:background="@xml/button_curve"
+        android:text="Unlock Door" />
+
+
+    <Button
+        android:id="@+id/messages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/unlockDoor"
+        android:background="@xml/button_curve"
+        android:text="Messages" />
+
+    <Button
+        android:id="@+id/logs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/messages"
+        android:background="@xml/button_curve"
+        android:text="Logs" />
+
+    <Button
+        android:id="@+id/addKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/logs"
+        android:background="@xml/button_curve"
+        android:text="Add Key" />
+
+</RelativeLayout>
